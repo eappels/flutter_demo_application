@@ -17,6 +17,7 @@ class AppleMapsExample extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: <Widget>[
         Expanded(
+          child: Container(
             child: AppleMap(
               onMapCreated: _onMapCreated,
               initialCameraPosition: const CameraPosition(
@@ -24,6 +25,7 @@ class AppleMapsExample extends StatelessWidget {
               ),
             ),
           ),
+        ),
       ],
     );
   }

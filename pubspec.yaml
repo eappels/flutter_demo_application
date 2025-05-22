@@ -7,8 +7,10 @@ environment:
   sdk: ^3.8.0
 
 dependencies:
+  baseflow_plugin_template: ^2.2.0
   flutter:
     sdk: flutter
+  geolocator: ^14.0.0
 
 dev_dependencies:
   flutter_test:

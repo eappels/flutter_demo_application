@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'OSM Flutter Application',  
       theme: ThemeData(  
-        primarySwatch: Colors.blue,  
+        primarySwatch: Colors.red,  
       ),  
       home: const OSMFlutterMap(),  
     );  
@@ -34,7 +34,7 @@ class _OSMFlutterMapState extends State<OSMFlutterMap> {
       children: [
         TileLayer(
           urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
-          userAgentPackageName: 'com.example.app',
+          userAgentPackageName: 'be.trackme.flutterdemoapp',
         ),
       ],
     );
